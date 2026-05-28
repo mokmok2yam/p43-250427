@@ -11,7 +11,6 @@ import org.springframework.context.annotation.Lazy
 import org.springframework.context.annotation.Profile
 
 @Configuration
-@Profile("!Prod")
 class BaseInitData(
     private val postService: PostService
 ) {
