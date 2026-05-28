@@ -1,4 +1,4 @@
- GraalVM JDK 24 기반 Gradle 이미지 (빌드 전용, 최종 이미지에 포함되지 않음)
+ #GraalVM JDK 24 기반 Gradle 이미지 (빌드 전용, 최종 이미지에 포함되지 않음)
  FROM gradle:jdk24-graal AS builder
 
  WORKDIR /app
